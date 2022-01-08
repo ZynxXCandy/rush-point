@@ -4,7 +4,7 @@
 ]]
 
 -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Aiming/Module.lua"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZynxXCandy/rush-point/master/Universal/Aiming/Module.lua"))()
 Aiming.TargetPart = {"HumanoidRootPart", "Head", "LowerTorso", "UpperTorso"}
 
 -- // Services
