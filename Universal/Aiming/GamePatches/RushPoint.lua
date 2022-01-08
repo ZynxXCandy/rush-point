@@ -24,6 +24,18 @@ function Aiming.IsIgnoredTeam(Player)
         return false
     end
 
+function Aiming.IsIgnoredTeam(Player)
+    -- // Unranked check
+    if (GameStats.GameMode.Value == "Unranked") then
+        return false
+    end
+        
+function Aiming.IsIgnoredTeam(Player)
+    -- // Casual check
+    if (GameStats.GameMode.Value == "Casual") then
+        return false
+    end
+            
     -- //
     return (LocalPlayer.PermanentTeam.Value == Player.PermanentTeam.Value)
 end
